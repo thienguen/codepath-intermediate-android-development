@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">MemeLib</string>
+
+    <string name="back4app_server_url">https://parseapi.back4app.com/</string>
+
+    <!-- Paste BOTH strings as required -->
+    <string name="back4app_app_id">D9KIs9EOjSGBTpma9QyRg22jPV501SOricSXNuNK</string>
+    <string name="back4app_client_key">8Gul5poXMTdd44rxpzClbWWX1fZvMXwcS14xUPDm</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="logout">Logout</string>
+    <string name="addcollection">addCollection</string>
+    <string name="are_you_sure_you_want_to_delete_this_collection">Are you sure you want to delete this collection?</string>
+
+</resources>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/Record"
+        android:enabled="true"
+        android:icon="@drawable/ic_baseline_format_list_bulleted_24"
+        android:title="Food List"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/Dashboard"
+        android:enabled="true"
+        android:icon="@drawable/ic_baseline_timeline_24"
+        android:title="Dashboard"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/AddEntry"
+        android:enabled="true"
+        android:icon="@drawable/ic_baseline_add_24"
+        android:title="Add Food"
+        app:showAsAction="ifRoom" />
+</menu>

@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Project 6 BitFit Part 2</string>
+    <string name="food">Food:</string>
+    <string name="calories">Calories</string>
+    <string name="enter_food_name">Enter Food Name</string>
+    <string name="enter_calories">Enter Calories</string>
+    <string name="add_new_food">Add New Food</string>
+    <string name="record_this_food">Save it!</string>
+    <string name="item_name">Item Name</string>
+    <string name="_00">00</string>
+    <string name="calories2">Calories:</string>
+    <string name="average_calories">Average Calories:</string>
+    <string name="minimum_calories">Minimum Calories:</string>
+    <string name="maximum_calories">Maximum Calories:</string>
+    <string name="clear_data">Clear data</string>
+</resources>

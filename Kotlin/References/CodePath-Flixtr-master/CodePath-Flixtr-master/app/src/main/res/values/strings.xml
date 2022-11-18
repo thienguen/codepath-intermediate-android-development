@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Flixtr</string>
+    <string name="title_movie_detail">Movie Detail</string>
+    <string name="popularity">Popularity</string>
+    <string name="dateReleased">Date Released</string>
+    <string name="title">Title</string>
+</resources>

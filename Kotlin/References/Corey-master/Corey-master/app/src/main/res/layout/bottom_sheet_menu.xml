@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@android:color/transparent"
+    app:behavior_hideable="true"
+    app:behavior_peekHeight="0dp"
+    app:layout_behavior="@string/bottom_sheet_behavior">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/bottomSheetMenu"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="-16dp"
+        app:cardCornerRadius="16dp"
+        app:cardElevation="24dp">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingBottom="24dp">
+
+            <ImageView
+                android:id="@+id/imageViewMenuUser"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="16dp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:srcCompat="@drawable/ic_user_dark" />
+
+            <TextView
+                android:id="@+id/txtMenuUserName"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_marginStart="12dp"
+                android:layout_marginEnd="4dp"
+                android:gravity="bottom"
+                android:text="@string/anonymous_user"
+                android:textColor="@color/colorPrimaryText"
+                android:textSize="13sp"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toTopOf="@+id/txtMenuUserMail"
+                app:layout_constraintEnd_toStartOf="@+id/btnMenuLogin"
+                app:layout_constraintStart_toEndOf="@+id/imageViewMenuUser"
+                app:layout_constraintTop_toTopOf="@+id/imageViewMenuUser" />
+
+            <TextView
+                android:id="@+id/txtMenuUserMail"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="12dp"
+                android:layout_marginEnd="4dp"
+                android:gravity="bottom"
+                android:textColor="@color/colorSecondaryText"
+                android:textSize="12sp"
+                app:layout_constraintBottom_toBottomOf="@+id/imageViewMenuUser"
+                app:layout_constraintEnd_toStartOf="@+id/btnMenuLogin"
+                app:layout_constraintStart_toEndOf="@+id/imageViewMenuUser"
+                tools:text="anonymous@gmail.com" />
+
+            <View
+                android:id="@+id/viewMenuSeparator"
+                android:layout_width="match_parent"
+                android:layout_height="0.25dp"
+                android:layout_marginTop="16dp"
+                android:background="@color/coreyBlack"
+                app:layout_constraintTop_toBottomOf="@+id/imageViewMenuUser" />
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/btnMenuLogin"
+                style="@style/AppTheme.RoundedButton.Outlined"
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:layout_marginTop="16dp"
+                android:layout_marginEnd="20dp"
+                android:layout_marginBottom="16dp"
+                android:text="@string/login"
+                android:textSize="13sp"
+                app:layout_constraintBottom_toTopOf="@+id/viewMenuSeparator"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:paddingStart="16dp"
+                android:paddingEnd="16dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/viewMenuSeparator">
+
+                <at.shockbytes.corey.ui.custom.CheckableMenuEntryItemView
+                    android:id="@+id/checkable_menu_item_forecast"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:checkable_item_checked="false"
+                    app:checkable_item_icon="@drawable/ic_weather"
+                    app:checkable_item_title="@string/show_weather_forecast" />
+
+                <at.shockbytes.corey.ui.custom.MenuEntryItemView
+                    android:id="@+id/menu_item_watch"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:visibility="gone"
+                    app:item_icon="@drawable/ic_watch"
+                    app:item_title="@string/unknown_smartwatch"
+                    tools:visibility="visible" />
+
+                <at.shockbytes.corey.ui.custom.MenuEntryItemView
+                    android:id="@+id/menu_item_notifications"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:item_icon="@drawable/ic_notifications"
+                    app:item_title="@string/notifications" />
+
+                <at.shockbytes.corey.ui.custom.MenuEntryItemView
+                    android:id="@+id/menu_item_settings"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:item_icon="@drawable/ic_settings"
+                    app:item_title="@string/settings" />
+
+            </LinearLayout>
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.cardview.widget.CardView>
+</FrameLayout>

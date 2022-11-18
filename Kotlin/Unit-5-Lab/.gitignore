@@ -1,0 +1,32 @@
+# generated files
+bin/
+gen/
+
+# Local configuration file (sdk path, etc)
+local.properties
+
+# Intellij and Android Studio project files
+*.iml
+*.ipr
+*.iws
+.gradle
+.idea/
+/.idea/caches
+/.idea/libraries
+/.idea/modules.xml
+/.idea/workspace.xml
+/.idea/navEditor.xml
+/.idea/misc.xml
+/.idea/assetWizardSettings.xml
+build
+import-summary.txt
+
+# Others
+/local.properties
+.DS_Store
+/build
+/captures
+.externalNativeBuild
+.cxx
+
+apikey.properties

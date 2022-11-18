@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/AvgCalLabel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="72dp"
+            android:text="@string/average_calories"
+            android:textSize="24sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/MinCalLabel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="72dp"
+            android:text="@string/minimum_calories"
+            android:textSize="24sp"
+            app:layout_constraintStart_toStartOf="@+id/AvgCalLabel"
+            app:layout_constraintTop_toBottomOf="@+id/AvgCalLabel" />
+
+        <TextView
+            android:id="@+id/MaxCalLabel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="68dp"
+            android:text="@string/maximum_calories"
+            android:textSize="24sp"
+            app:layout_constraintStart_toStartOf="@+id/MinCalLabel"
+            app:layout_constraintTop_toBottomOf="@+id/MinCalLabel" />
+
+        <TextView
+            android:id="@+id/AvgCal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="16dp"
+            android:textAlignment="viewEnd"
+            android:textSize="24sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/AvgCalLabel" />
+
+        <TextView
+            android:id="@+id/MinCal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAlignment="viewEnd"
+            android:textSize="24sp"
+            app:layout_constraintEnd_toEndOf="@+id/AvgCal"
+            app:layout_constraintTop_toTopOf="@+id/MinCalLabel" />
+
+        <TextView
+            android:id="@+id/MaxCal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAlignment="viewEnd"
+            android:textSize="24sp"
+            app:layout_constraintEnd_toEndOf="@+id/MinCal"
+            app:layout_constraintTop_toTopOf="@+id/MaxCalLabel" />
+
+        <Button
+            android:id="@+id/ClearDataButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="52dp"
+            android:layout_marginEnd="140dp"
+            android:text="@string/clear_data"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/MaxCal" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</FrameLayout>

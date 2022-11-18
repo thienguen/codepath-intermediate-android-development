@@ -2,3 +2,6 @@
 node_modules
 node_modules
 yarn.lock
+.gradle
+.build
+/gradle

@@ -1,0 +1,68 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".app.MovieDetailFragment">
+
+    <RatingBar
+        android:id="@+id/movie_review_rating"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:isIndicator="false"
+        android:numStars="5"
+        android:scaleX="0.7"
+        android:scaleY="0.7"
+        android:transformPivotX="0dp"
+        android:stepSize="0.1"
+        android:layout_marginTop="40dp"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="-60dp"
+        android:layout_marginBottom="-30dp"/>
+
+
+
+    <TextView
+        android:id="@+id/movie_vote_count"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="16dp"
+        android:textStyle="italic"
+        style="?android:attr/textAppearanceSmall"
+        tools:text="count"
+        android:layout_marginRight="10dp"
+        android:layout_below="@+id/movie_review_rating"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="-10dp"
+        />
+
+    <TextView
+        android:id="@+id/movie_title"
+        style="?android:attr/textAppearanceMedium"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="16dp"
+        android:textStyle="bold"
+        tools:text="Gravity"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="10dp"
+        android:layout_below="@+id/movie_vote_count"
+        android:layout_marginTop="-10dp" />
+
+    <TextView
+        android:id="@+id/movie_overview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:textIsSelectable="true"
+        tools:text="Dr. Ryan Stone (Sandra Bullock) is a medical engineer on her first shuttle mission. Her commander is veteran astronaut Matt Kowalsky (George Clooney), helming his last flight before retirement. Then, during a routine space walk by the pair, disaster strikes: The shuttle is destroyed, leaving Ryan and Matt stranded in deep space with no link to Earth and no hope of rescue. As fear turns to panic, they realize that the only way home may be to venture further into space."
+        android:layout_below="@+id/movie_title"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:textStyle="normal"
+        android:gravity="fill"
+        android:typeface="serif" />
+
+
+</RelativeLayout>

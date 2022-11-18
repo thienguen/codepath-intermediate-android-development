@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="format_time_exercise">%1$d Minuten %2$s</string>
+
+    <string name="dialogfragment_countdown">Übung beginnt in</string>
+
+    <string name="start_run">STARTE LAUF</string>
+
+    <string-array name="days">
+        <item>MO</item>
+        <item>DI</item>
+        <item>MI</item>
+        <item>DO</item>
+        <item>FR</item>
+        <item>SA</item>
+        <item>SO</item>
+    </string-array>
+
+    <string-array name="daysFull">
+        <item>Montag</item>
+        <item>Dienstag</item>
+        <item>Mittwoch</item>
+        <item>Donnerstag</item>
+        <item>Freitag</item>
+        <item>Samstag</item>
+        <item>Sonntag</item>
+    </string-array>
+
+</resources>
