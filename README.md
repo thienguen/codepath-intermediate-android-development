@@ -7,11 +7,20 @@ Things that i might or might not take reference in the future but they are good 
 <p align="center"><i><img src='http://g.recordit.co/jv0GwWRJoO.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' /> </i></p>
 
 
+
 ## Bideo Walkthrough
 
 <p align="center"><i><img src='http://g.recordit.co/F37Yiorex0.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' /> </i></p>
 
-   
+
+## Video Walkthrough
+
+Here's a walkthrough of implemented user stories:
+
+![3HNb8lCvhx](https://user-images.githubusercontent.com/94078395/200148241-8b0ab1b1-0e32-4feb-9062-83fcc2e647c2.gif)
+
+GIF created with ... recordit
+
 ## License
 
     Copyright [2022] [Thien Nguyen]
