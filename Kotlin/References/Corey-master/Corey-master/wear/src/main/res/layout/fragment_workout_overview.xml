@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<androidx.wear.widget.WearableRecyclerView xmlns:android="http://schemas.android.com/apk/res/android"
-    android:id="@+id/fragment_workout_overview_rv"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:background="@color/wear_background"
-    android:scrollbars="vertical" />
-
