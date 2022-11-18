@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">BitFit</string>
+    <string name="place_holder">Place Holder</string>
+    <string name="submit">Submit</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="wish_list_name">Wish List Name</string>
+    <string name="wish_list_description" />
+    <string name="name">Name</string>
+    <string name="calories">calories</string>
+    <string name="time">Ex: 6:00 AM</string>
+    <string name="save">Save</string>
+</resources>

@@ -2,6 +2,7 @@
 node_modules
 yarn.lock
 .gradle
+/.gradle/
 .build
 *.iml
 /local.properties
@@ -11,6 +12,7 @@ yarn.lock
 /.idea/workspace.xml
 /.idea/navEditor.xml
 /.idea/assetWizardSettings.xml
+/.idea/
 .DS_Store
 /build
 /captures
