@@ -19,7 +19,23 @@ Here's a walkthrough of implemented user stories:
 
 ![3HNb8lCvhx](https://user-images.githubusercontent.com/94078395/200148241-8b0ab1b1-0e32-4feb-9062-83fcc2e647c2.gif)
 
-GIF created with ... recordit
+## Video Walkthrough 
+
+Here's a walkthrough of implemented user stories:
+
+<img src='http://g.recordit.co/S7dsrMGmsf.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+
+## Video Walkthrough
+
+Here's a walkthrough of implemented user stories:
+
+<img src='http://g.recordit.co/vzCTQcwLk8.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+
+## Video Walkthrough
+
+Here's a walkthrough of implemented user stories:
+
+<img src='http://g.recordit.co/c0WBKT4zfF.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
 ## License
 
