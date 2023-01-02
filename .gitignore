@@ -20,3 +20,6 @@ yarn.lock
 .cxx
 local.properties
 ComputerGraphics/
+package/
+package-lock.json
+package.json
