@@ -19,3 +19,4 @@ yarn.lock
 .externalNativeBuild
 .cxx
 local.properties
+ComputerGraphics/

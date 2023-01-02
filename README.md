@@ -2,6 +2,33 @@
 
 Things that i might or might not take reference in the future but they are good practices
 
+```cpp
+Projects
+├── Kotlin
+│   ├── Unit-1
+│   ├── Unit-2
+│   ├── Unit-2-Lab
+│   ├── Unit-2-Project
+│   ├── Unit-3-Project
+│   ├── Unit-4
+│   ├── Unit-5-Lab
+│   ├── Unit-5-Practice
+│   ├── Unit-5-Project
+│   └── Unit-6-Project
+├── JavaScript
+│   ├── Others
+│   └── TodoApp
+├── Java
+│   └── RussianRoulette.java
+└── C++
+    ├── Animation
+    │   ├── bubbleSort
+    │   ├── sample (template)
+    │   └── sand
+    └── Good Practices
+        └── when I was young
+```
+
 ## Video Walkthrough
 
 <p align="center"><i><img src='http://g.recordit.co/jv0GwWRJoO.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' /> </i></p>
