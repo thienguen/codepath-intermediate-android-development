@@ -4,7 +4,7 @@ Things that i might or might not take reference in the future but they are good 
 
 ```cpp
 Projects
-├── Kotlin
+├── Android Studio
 │   ├── Unit-1
 │   ├── Unit-2
 │   ├── Unit-2-Lab
@@ -15,30 +15,26 @@ Projects
 │   ├── Unit-5-Practice
 │   ├── Unit-5-Project
 │   └── Unit-6-Project
-├── JavaScript
-│   ├── Others
-│   └── TodoApp
-├── Java
+├── TodoApp
+├── Others
+├── Command Line Games
 │   └── RussianRoulette.java
-└── C++
-    ├── Animation
-    │   ├── bubbleSort
-    │   ├── sample (template)
-    │   └── sand
-    └── Good Practices
-        └── when I was young
+├── Animations
+│   ├── bubbleSort
+│   ├── sample (template)
+│   └── sand
+├── Computer Graphics (TBD)
+└── Good Practices
+    └── Useful (I think so...)
 ```
 
 ## Video Walkthrough
 
 <p align="center"><i><img src='http://g.recordit.co/jv0GwWRJoO.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' /> </i></p>
 
-
-
 ## Bideo Walkthrough
 
 <p align="center"><i><img src='http://g.recordit.co/F37Yiorex0.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' /> </i></p>
-
 
 ## Video Walkthrough
 
