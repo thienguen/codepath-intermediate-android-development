@@ -15,17 +15,11 @@ Projects
 │   ├── Unit-5-Practice
 │   ├── Unit-5-Project
 │   └── Unit-6-Project
-├── TodoApp
-├── Others
-├── Command Line Games
-│   └── RussianRoulette.java
 ├── Animations
 │   ├── bubbleSort
 │   ├── sample (template)
 │   └── sand
 ├── Computer Graphics (TBD)
-└── Good Practices
-    └── Useful (I think so...)
 ```
 
 ## Video Walkthrough
@@ -35,12 +29,6 @@ Projects
 ## Bideo Walkthrough
 
 <p align="center"><i><img src='http://g.recordit.co/F37Yiorex0.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' /> </i></p>
-
-## Video Walkthrough
-
-Here's a walkthrough of implemented user stories:
-
-![3HNb8lCvhx](https://user-images.githubusercontent.com/94078395/200148241-8b0ab1b1-0e32-4feb-9062-83fcc2e647c2.gif)
 
 ## Video Walkthrough 
 
