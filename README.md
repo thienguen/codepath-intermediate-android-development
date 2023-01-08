@@ -15,20 +15,7 @@ Projects
 │   ├── Unit-5-Practice
 │   ├── Unit-5-Project
 │   └── Unit-6-Project
-├── Animations
-│   ├── bubbleSort
-│   ├── sample (template)
-│   └── sand
-├── Computer Graphics (TBD)
 ```
-
-## Video Walkthrough
-
-<p align="center"><i><img src='http://g.recordit.co/jv0GwWRJoO.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' /> </i></p>
-
-## Bideo Walkthrough
-
-<p align="center"><i><img src='http://g.recordit.co/F37Yiorex0.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' /> </i></p>
 
 ## Video Walkthrough 
 
