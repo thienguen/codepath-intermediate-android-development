@@ -21,19 +21,31 @@ Projects
 
 Here's a walkthrough of implemented user stories:
 
-<img src='http://g.recordit.co/S7dsrMGmsf.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+<p align="center">
+    <i>
+        <img src='http://g.recordit.co/S7dsrMGmsf.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' /> 
+    </i>
+</p>
 
 ## Video Walkthrough
 
 Here's a walkthrough of implemented user stories:
 
-<img src='http://g.recordit.co/vzCTQcwLk8.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+<p align="center">
+    <i>
+        <img src='http://g.recordit.co/vzCTQcwLk8.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+    </i>
+</p>
 
 ## Video Walkthrough
 
 Here's a walkthrough of implemented user stories:
 
-<img src='http://g.recordit.co/c0WBKT4zfF.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+<p align="center">
+    <i>
+        <img src='http://g.recordit.co/c0WBKT4zfF.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+    </i>
+</p>
 
 ## License
 
