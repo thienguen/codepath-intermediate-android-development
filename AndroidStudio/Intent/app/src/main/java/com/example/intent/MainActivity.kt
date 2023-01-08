@@ -18,8 +18,6 @@ class MainActivity : AppCompatActivity() {
             val intent = Intent(this, MainActivity2::class.java)
             intent.putExtra("name", "Thien")
             intent.putExtra("age", 20)
-
-
             startActivity(intent) // --> forward to the next activity
         }
 
